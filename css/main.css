@@ -1,0 +1,377 @@
+/*  ? GOOGLE FONTS IMPORT  */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --font-rubik: "Rubik", sans-serif;
+
+  --color-green-100: #01595a;
+  --color-green-75: #44a795;
+  --color-green-50: #6fbfbe;
+  --color-green-25: #7ed9d0;
+  --color-white: #ffffff;
+  --color-light: #f5f5f5;
+  --color-light-gray: #d9d9d9;
+  --color-gray: #363636;
+  --color-black: #000000;
+
+  --fs-60: 60px;
+  --fs-50: 50px;
+  --fs-40: 40px;
+  --fs-30: 30px;
+  --fs-25: 25px;
+  --fs-20: 20px;
+  --fs-16: 16px;
+  --fs-10: 10px;
+
+  --fw-900: 900;
+  --fw-800: 800;
+  --fw-700: 700;
+  --fw-600: 600;
+  --fw-500: 500;
+  --fw-400: 400;
+  --fw-300: 300;
+
+  --br-30: 30px;
+  --br-10: 10px;
+  --br-5: 5px;
+  --bw-2: 2px;
+  --br-0: 0px;
+}
+
+* {
+  font-family: var(--font-rubik);
+}
+
+.custom-font-rubik {
+  font-family: var(--font-rubik) !important;
+}
+
+/* ? UTILITY CLASSES FOR BACKGROUND COLOR */
+.custom-bg-transparent {
+    background-color: transparent !important;
+}
+.custom-bg-green-100 {
+  background-color: var(--color-green-100) !important;
+}
+.custom-bg-green-75 {
+  background-color: var(--color-green-75) !important;
+}
+.custom-bg-green-50 {
+  background-color: var(--color-green-50) !important;
+}
+.custom-bg-green-25 {
+  background-color: var(--color-green-25) !important;
+}
+.custom-bg-white {
+  background-color: var(--color-white) !important;
+}
+.custom-bg-light {
+  background-color: var(--color-light) !important;
+}
+.custom-bg-light-gray {
+  background-color: var(--color-light-gray) !important;
+}
+.custom-bg-gray {
+  background-color: var(--color-gray) !important;
+}
+.custom-bg-black {
+  background-color: var(--color-black) !important;
+}
+
+/* ? UTILITY CLASSES FOR TEXT COLOR */
+.custom-text-green-100 {
+  color: var(--color-green-100) !important;
+}
+.custom-text-green-75 {
+  color: var(--color-green-75) !important;
+}
+.custom-text-green-50 {
+  color: var(--color-green-50) !important;
+}
+.custom-text-green-25 {
+  color: var(--color-green-25) !important;
+}
+.custom-text-white {
+  color: var(--color-white) !important;
+}
+.custom-text-light {
+  color: var(--color-light) !important;
+}
+.custom-text-light-gray {
+  color: var(--color-light-gray) !important;
+}
+.custom-text-gray {
+  color: var(--color-gray) !important;
+}
+.custom-text-black {
+  color: var(--color-black) !important;
+}
+
+/* ? UTILITY CLASSES FOR FONT SIZE */
+.custom-fs-60 {
+  font-size: var(--fs-60) !important;
+}
+.custom-fs-50 {
+  font-size: var(--fs-50) !important;
+}
+.custom-fs-40 {
+  font-size: var(--fs-40) !important;
+}
+.custom-fs-30 {
+  font-size: var(--fs-30) !important;
+}
+.custom-fs-25 {
+  font-size: var(--fs-25) !important;
+}
+.custom-fs-20 {
+  font-size: var(--fs-20) !important;
+}
+.custom-fs-16 {
+  font-size: var(--fs-16) !important;
+}
+.custom-fs-10 {
+  font-size: var(--fs-10) !important;
+}
+
+/* ? UTILITY CLASSES FOR FONT WEIGHT */
+.custom-fw-900 {
+  font-weight: var(--fw-900) !important;
+}
+.custom-fw-800 {
+  font-weight: var(--fw-800) !important;
+}
+.custom-fw-700 {
+  font-weight: var(--fw-700) !important;
+}
+.custom-fw-600 {
+  font-weight: var(--fw-600) !important;
+}
+.custom-fw-500 {
+  font-weight: var(--fw-500) !important;
+}
+.custom-fw-400 {
+  font-weight: var(--fw-400) !important;
+}
+.custom-fw-300 {
+  font-weight: var(--fw-300) !important;
+}
+
+/* ? UTILITY CLASSES FOR BORDERS*/
+.custom-br-10 {
+  border-radius: var(--br-10) !important;
+}
+.custom-br-30 {
+  border-radius: var(--br-30) !important;
+}
+.custom-br-5 {
+  border-radius: var(--br-5) !important;
+}
+.custom-bw-2 {
+  border-width: var(--bw-2) !important;
+}
+.custom-br-0 {
+  border-radius: var(--br-0) !important;
+}
+.custom-bc-green-100 {
+  border-color: var(--color-green-100) !important;
+}
+.custom-bc-green-75 {
+  border-color: var(--color-green-75) !important;
+}
+.custom-bc-green-50 {
+  border-color: var(--color-green-50) !important;
+}
+.custom-bc-green-25 {
+  border-color: var(--color-green-25) !important;
+}
+.custom-bc-white {
+  border-color: var(--color-white) !important;
+}
+.custom-bc-light {
+  border-color: var(--color-light) !important;
+}
+.custom-bc-light-gray {
+  border-color: var(--color-light-gray) !important;
+}
+.custom-bc-gray {
+  border-color: var(--color-gray) !important;
+}
+.custom-bc-black {
+  border-color: var(--color-black) !important;
+}
+
+/* ? OTHER UTILITY */
+.custom-w-100p {
+  width: 100%;
+}
+.custom-container {
+  max-width: 60%;
+  margin: auto;
+}
+.diamond-shape {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-white);
+  transform: rotate(-45deg);
+}
+
+/* ? SOME CUSTOM CLASSES USED IN PAGES */
+.logo-size {
+  --width: 153px;
+  --height: 77px;
+  width: var(--width);
+  height: var(--height);
+}
+.remove-underline {
+  text-decoration: none;
+}
+.min-width-225 {
+  min-width: 225px;
+}
+.max-width-225 {
+  min-width: 225px;
+}
+.width-225 {
+  width: 225px !important;
+}
+.w-100p {
+  width: 100%;
+}
+.mw-200 {
+    max-width: 200px !important;
+  }
+.h-100 {
+  height: 100px !important;
+}
+.custom-shadow-lg {
+  box-shadow: 0px 6px 20px 0px rgba(126, 217, 208, 0.4);
+}
+.custom-shadow-sm {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.no-shadown {
+  box-shadow: 0;
+}
+
+.contact-us-banner {
+  width: 100%;
+  height: 452px;
+  object-fit: cover;
+}
+.page-banner {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.absolute-right {
+  position: absolute;
+  top: 50%;
+  right: 4rem;
+  transform: translate(0%, -50%);
+}
+
+.custom-range::-webkit-slider-thumb {
+  background: var(--color-light-gray);
+}
+
+.custom-range::-moz-range-thumb {
+  background: var(--color-light-gray);
+}
+
+.custom-range::-ms-thumb {
+  background: var(--color-light-gray);
+}
+
+.pointer-event-none {
+    pointer-events: none;
+}
+.glide-btn-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.glide-btn-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+/* ? FOR STAR RATING */
+.star-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.radio {
+  display: none;
+}
+
+.label {
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #ddd;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.star {
+  fill: transparent;
+  stroke: #ddd;
+  transition: 0.3s;
+}
+
+.star:hover {
+  fill: #ddd;
+  transform: scale(1.3, 1.3);
+}
+
+.radio:checked ~ label .star {
+  fill: var(--color-green-100);
+  stroke: var(--color-green-100);
+  transform: scale(1.3, 1.3);
+}
+
+.radio:checked ~ label:hover .star {
+  transform: scale(1, 1);
+}
+
+.radio:checked ~ label:hover .star {
+  fill: darkvar(--color-green-100);
+  stroke: darkvar(--color-green-100);
+}
+
+
+/* ? BREAK POINTS */
+@media only screen and (max-width : 576px) {
+  :root {
+    --fs-60: 40px;
+    --fs-50: 35px;
+    --fs-40: 30px;
+    --fs-30: 24px;
+    --fs-25: 18px;
+    --fs-20: 16px;
+    --fs-16: 14px;
+    --fs-10: 10px;
+  }
+}
