@@ -10,4 +10,4 @@ A front end design for dry cleaning store using html, css, bootstrap and others.
 
 ## Demo
 
-Insert gif or link to demo
+[Live preview](https://easy-laundary.netlify.app/)
